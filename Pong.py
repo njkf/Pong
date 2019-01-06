@@ -223,9 +223,8 @@ class Pong:
         self.new_game()
 
 
-if __name__ == "__main__":
-    master = Tk()
-    master.title('Pong')
-    master.attributes('-fullscreen', 1)
-    pong = Pong()
-    master.mainloop()
+master = Tk()
+master.title('Pong')
+master.attributes('-fullscreen', 1)
+pong = Pong()
+master.mainloop()
